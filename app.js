@@ -39,6 +39,8 @@ function selectRandomFriend(){
         let pickedFriend = amigos[randomNumber];
         //Muestro el amigo sorteado.
         showDrawFriend(pickedFriend);
+        //Limpio el arreglo para empezar otra vez el sorteo.
+        amigos = [];
     }
 }
 //Funcion que imprime el amigo sorteado y limpia la lista de amigos a sortear.
